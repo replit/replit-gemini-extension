@@ -1,0 +1,19 @@
+{
+  "name": "replit",
+  "version": "1.0.0",
+  "description": "Create beautiful apps and automations from natural language",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "replit": {
+      "httpUrl": "https://replit-mcp.com/server/mcp",
+      "oauth": {
+        "enabled": true,
+        "clientId": "8ae3ed98-5292-44ab-be35-89a408bff871",
+        "scopes": ["apps:read", "apps:write"],
+        "authorizationUrl": "https://replit.com/oidc/auth",
+        "redirectUri": "http://localhost:7777/oauth/callback",
+        "tokenUrl": "https://replit.com/oidc/token"
+      }
+    }
+  }
+}
